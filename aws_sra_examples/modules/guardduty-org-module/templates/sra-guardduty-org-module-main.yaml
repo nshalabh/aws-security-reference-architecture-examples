@@ -272,7 +272,7 @@ Parameters:
   pControlTowerRegionsOnly:
     Type: String
     Description: Only enable in the Control Tower governed regions (set to true for environments without AWS Control Tower)
-    Default: 'false'
+    Default: 'true'
     AllowedValues: ['true', 'false']
   pEnabledRegions:
     AllowedPattern: '^$|^([a-z0-9-]{1,64})$|^(([a-z0-9-]{1,64},)*[a-z0-9-]{1,64})$'
